@@ -4,28 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cooper Flynn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
 <!-- navigation-->
-<header>
-    <h1>
-        <a href="/">Cooper Flynn</a>
-    </h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#top">About</a>
+          <a class="nav-link" href="#work-container">Work</a>
+          <a class="nav-link" href="#bottom">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<header class="container">
+    <div class="row">
+        <h1 class="col-md">Cooper Flynn</h1>
+        
+    </div>
+    <div class="row">
+        <div class="col-md-4 pl-0">
+            <img src="./assets/images/prof_pic.jpg" class="col-md" alt="Image of Cooper Flynn">
+        </div>
+        <div class="col-md-8">
+            <h2 class="about-me-header">About Me</h2>
+            <p class="about-me-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quaerat ut recusandae accusamus, reiciendis repellendus accusantium. Quos soluta delectus rem consequuntur explicabo ut, facere repudiandae odio, minus deleniti impedit velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus veniam nemo aliquam excepturi exercitationem distinctio in nisi ipsum. Cumque recusandae unde earum maiores modi debitis. Tempora quam unde ipsum tenetur?
+            </p>
+        </div>
+        
+    </div>
     
+  
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="col-md-4 card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="col-md-4 card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+</div>
 </body>
 </html>
