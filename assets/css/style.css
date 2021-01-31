@@ -1,3 +1,77 @@
-.about-me-text {
-    font-size: 125%;
+header {
+    margin-bottom: 140px;
 }
+.header-1 {
+    margin-left: 4vw;
+}
+
+.row-1 {
+
+}
+
+.header-2 {
+    margin-left: 27.5vw;
+    margin-right: 0px;
+}
+
+.header-4 {
+    margin-left: 17vw;
+    margin-right: 0px;
+}
+
+.about-me-header {
+    font-size: 12.5vw;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -10px;
+}
+
+.prof-pic {
+    margin-left: 3vw;
+}
+
+.about-me-text {
+    font-size: 2vw;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 0px;
+}
+
+ 
+.body {
+    background-color: rgb(252, 236, 224);
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand, 
+.nav-link {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+a,
+h1,
+h2,
+p,
+a {
+    color: #233946;
+}
+
+.work {
+    font-size: 6vw;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -6px;
+    margin-right: 0px;
+    margin-left: 3vw;
+}
+
+.top-work {
+    margin-top: 150px;
+}
+
+
+
+
+
