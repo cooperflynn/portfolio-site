@@ -65,15 +65,28 @@ a {
     letter-spacing: -6px;
     margin-right: 0px;
     margin-left: 3vw;
+    margin-bottom: 0px;
 }
 
 .top-work {
     margin-top: 150px;
 }
 
-.row-img {
-    width: 10%;
+.contact-me {
+    font-size: 6vw;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -6px;
+    margin-right: 0px;
+    margin-left: 3vw;
 }
+
+.top-contact {
+    font-size: 8vw;
+    margin-top: 150px;
+    margin-left: 21vw;
+}
+
+
 
 
 
