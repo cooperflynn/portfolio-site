@@ -43,6 +43,7 @@ header {
 
 .navbar {
     width: 100%;
+    background-color: rgb(252, 236, 224);
 }
 
 .navbar-brand, 
@@ -51,11 +52,20 @@ header {
     font-size: 18px;
 }
 
+.navbar-brand {
+    font-size: 21px;
+}
+
 a,
 h1,
 h2,
 p,
 a {
+    color: #233946;
+}
+
+a:hover {
+    text-decoration: none;
     color: #233946;
 }
 
